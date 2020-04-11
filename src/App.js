@@ -27,7 +27,7 @@ function App() {
 
 
   const getData = () => {
-    axios.get('http://jsonplaceholder.typicode.com/users')
+    axios.get('https://jsonplaceholder.typicode.com/users')
     .then(res => {
       setData( res.data )
     })
